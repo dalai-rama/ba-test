@@ -43,6 +43,9 @@
   padding: 3rem;
   height: 350px;
 }
+#first-form p {
+  width: 70%;
+}
 
 .form-container {
   margin: 0 10%;
@@ -161,7 +164,7 @@
     display: none;
   }
   html {
-    width: fit-content;
+    width: 100%;
   }
   span {
     font-size: 15px;
@@ -180,7 +183,15 @@
     border-radius: 0;
   }
   #first-form h2 {
-    font-size: larger;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-28)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-nunito);
+    letter-spacing: var(--unnamed-character-spacing--0-06);
+    color: var(--grisulado-90-38485c);
+    text-align: left;
+    font: normal normal 600 24px/22px sans-serif;
+    letter-spacing: -0.06px;
+    color: #38485C;
+    opacity: 1;
+    width: 300px;
   }
   #first-form #form-text {
     width: 100%;
@@ -198,6 +209,9 @@
     max-width: 664px;
     top: 450px;
     left: -400px;
+  }
+  #first-form p {
+    width: 95%;
   }
   .data-container {
     height: auto;
@@ -234,16 +248,21 @@
   #ba-ciudad-logo {
     display: hidden;
   }
-  #logo-ba-responsive {
-    position: absolute;
-    max-width: 150px;
-    bottom: 870px;
-  }
   .main-footer {
     padding-top: 100px;
   }
   header .container {
     flex-direction: row;
+  }
+  .breadcrumb-item {
+    display: block;
+  }
+}
+@media (max-width: 751px) {
+  #logo-ba-responsive {
+    position: absolute;
+    max-width: 150px;
+    bottom: 870px;
   }
 }
 
