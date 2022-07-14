@@ -1,9 +1,5 @@
  @import '../node_modules/@gcba/obelisco/src/scss/variables/colors';
  
-
-//globales
-
-
 // PRIMER CONTENEDOR 
 
 .nav-container {
@@ -34,15 +30,7 @@
   .yellow{
     box-shadow: inset 13px 0 0 0 #FFDB2E ;
     
-   
 }
-  
-  .card-body {
-    padding: auto;
-
-  }
-
-
 
   // FORMULARIO
 
@@ -91,14 +79,12 @@
     display: flex ;
     margin: 2rem auto;
     a{
-        text-decoration: none !important;
+        text-decoration: none;
     
     }
-    
-   
   }
 
-  .card-icon {
+.card-icon {
     border-radius: 50% !important;
   }
 
@@ -242,7 +228,7 @@
         button{
             margin: auto;
             bottom: 200px;
-            left: -500px;
+            left: -480px;
         }
 
         img{
@@ -311,7 +297,7 @@
 
     .breadcrumb-item{
       display: block;
-      
+
     }
     
 }

@@ -29,10 +29,6 @@
   box-shadow: inset 13px 0 0 0 #FFDB2E;
 }
 
-.card-body {
-  padding: auto;
-}
-
 #first-form {
   display: flex;
   flex-wrap: wrap;
@@ -76,7 +72,7 @@
   margin: 2rem auto;
 }
 .servicios-container a {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .card-icon {
@@ -202,7 +198,7 @@
   #first-form button {
     margin: auto;
     bottom: 200px;
-    left: -500px;
+    left: -480px;
   }
   #first-form img {
     height: 75%;
